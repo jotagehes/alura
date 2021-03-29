@@ -20,13 +20,16 @@
     padding: 2rem 0 2rem 5rem;
 
 }
-.diferenciais__item--tempo{
+
+.diferenciais__item--tempo {
     background-image: url(../img/icone-relogio.png);
 }
-.diferenciais__item--foco{
+
+.diferenciais__item--foco {
     background-image: url(../img/icone-dinheiro.png);
 }
-.diferenciais__item--especialista{
+
+.diferenciais__item--especialista {
     background-image: url(../img/icone-quimica.png);
 }
 
@@ -41,4 +44,13 @@
 
 .item__texto {
     line-height: normal;
+}
+
+@media screen and (min-width: 1024px) {
+    .diferenciais {
+        background-color: var(--cinza-claro);
+    }
+    .diferenciais__lista{
+        justify-content: space-around;
+    }
 }
